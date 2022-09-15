@@ -6,12 +6,14 @@ public class sortarray {
         System.out.println(Arrays.toString(sortArray(new int[] {5,4,2,1,3})));
         System.out.println(Arrays.toString(sortArray(new String[] {"a","c","b","ab","abc"})));
     }
-
+    
+    // Integer sort
     public static int[] sortArray(int[] array){
         Arrays.sort(array);
         return array;
     }
 
+    // String sort
     public static String[] sortArray(String[] array){
         Arrays.sort(array);
         return array;
